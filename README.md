@@ -1,4 +1,3 @@
-# TeamViewer-IOT-Project
 # `TeamViewer IoT Solution`
 
 `Putty and MQTT Broker:`
@@ -16,7 +15,7 @@
 
 5.Install
   ```
-  Paho Mqtt broker to Rasberry pi”
+  Paho Mqtt broker to Rasberry pi
 ```
 ```
   http://www.steves-internet-guide.com/into-mqtt-python-client/
