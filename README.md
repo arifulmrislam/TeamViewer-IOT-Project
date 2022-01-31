@@ -1,11 +1,12 @@
 # TeamViewer-IOT-Project
-#TeamViewer IoT Solution
+# `TeamViewer IoT Solution`
 
-Putty and MQTT Broker:
+`Putty and MQTT Broker:`
 
 1.Download and Install Putty software.
-
+```
   https://www.putty.org/
+```
 
 2.Enable SSH on Raspberry Pi.
 
@@ -14,11 +15,14 @@ Putty and MQTT Broker:
 4.Open Putty and Connect with Raspberry Pi.
 
 5.Install
-  ‘’Paho Mqtt broker to Rasberry pi”
-
+  ```
+  Paho Mqtt broker to Rasberry pi”
+```
+```
   http://www.steves-internet-guide.com/into-mqtt-python-client/
+```
 
-6.“sudo pip install paho-mqtt” in Putty 
+6. `sudo pip install paho-mqtt` in Putty 
 
 Add Device and TeamViewer Agent:
 
