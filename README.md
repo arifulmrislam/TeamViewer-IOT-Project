@@ -1,4 +1,4 @@
-# `TeamViewer IoT Solution`
+## `TeamViewer IoT Solution`
 
 `Putty and MQTT Broker:`
 
@@ -30,11 +30,11 @@ Add Device and TeamViewer Agent:
 2.Sign-up and take security by third-party apps (youraccount@gmail.com /P1).
 
 3.Add device,
-
+```
   -	Select device 
   -	Select my computer 
   -	Copy the command and paste to Putty
-
+```
 4.Restart your agent. 
 
 5.Click to connect the device.
@@ -65,24 +65,24 @@ DHT11 and TeamViewer:
 1.Download and install Adafruit to your Raspberry Pi.
 
 2.To update: 
-
-  “sudo apt-get update”
-
+```
+  sudo apt-get update
+```
 3.Python library for dependency: 
-
-  “sudo apt-get install python-dev”
+```
+  sudo apt-get install python-dev
   -	git clone https://github.com/adafruit/Adafruit_Python_DHT.git
   -	cd Adafruit_Python_DHT
   -	sudo python2 setup.py install
   -	sudo python3 setup.py install
   -	CD to Example folder and change DHT11 and PIN as well
   -	Run “python sample.py” to get the value
-
+```
 4.Paste the Adafruit code to the script of the sample python code of TV (TeamViewer IoT).
 
 5.Instead of value in Push function link the global variable of Adafruit. Boom...!!
 
-MODBUS TCP server Simulator and TeamViewer:
+- MODBUS TCP server Simulator and TeamViewer:
 
 1.Run Node-Red.
 
@@ -91,19 +91,19 @@ MODBUS TCP server Simulator and TeamViewer:
 3.Install Python shell in node to change the data of Python Shell (put the link of python shell of TV).
 
 4.Get the data by MODBUS TCP node and convert the data into INTEGER by below Code to Function Node (Node-Red).
-
+```
   -	let pay = msg.payload;
   -	const buf = Buffer.allocUnsafe(4); // (4) is ok
   -	buf.writeUInt16BE(pay[0]); // high byte
   -	msg.payload = buf.readInt16BE();
   -	return msg;
-
+```
 5.Write below code to Python shell,
-
+```
   -	Import sys
   -	Varaiable= int(sys.argv[1]);
-
-6.Then sent the data from MODBUS server Simulator (Easy Modbus server simulator) to Python shell of TV to push.
+```
+6.Then sent the data from MODBUS server Simulator (Easy Modbus server simulator) to Python shell of dell server to push.
 
 🚩 Connect with me on social
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ariful-islam-arif-2987b51a3/)
