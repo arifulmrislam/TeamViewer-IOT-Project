@@ -105,11 +105,11 @@ DHT11 and TeamViewer:
 ```
 6.Then sent the data from MODBUS server Simulator (Easy Modbus server simulator) to Python shell of dell server to push.
 
-🚩 Connect with me on social
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ariful-islam-arif-2987b51a3/)
-- Twitter: [Twitter](https://twitter.com/arifulislam301)
-- Instagram: [Instagram](https://www.instagram.com/ariful_mr_islam/)
+🚩 `Connect with me on social`
+- `LinkedIn:` [LinkedIn](https://www.linkedin.com/in/ariful-islam-arif-2987b51a3/)
+- `Twitter:` [Twitter](https://twitter.com/arifulislam301)
+- `Instagram:` [Instagram](https://www.instagram.com/ariful_mr_islam/)
 
-🔔 Subscribe to my YouTube channel: [YouTube](https://www.youtube.com/channel/UCED68cm6nHaAlAk0h9I3yAQ)
+🔔 `Subscribe to my YouTube channel:` [YouTube](https://www.youtube.com/channel/UCED68cm6nHaAlAk0h9I3yAQ)
 
 
